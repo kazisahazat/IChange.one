@@ -1,0 +1,1248 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+#mob_footer {
+    display: none;
+}
+/*--================================================================
+=========================  Top_hadding part start  =================
+================================================================--*/
+#top_hadding {
+	width: 100%;
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+.header_text {
+	padding-top: 10px;
+	width: 51%;
+	float: left;
+	text-align: center;
+	line-height: 42px;
+}
+.header_text p {
+    color: #40BFFF;
+    font-size: 14px;
+}
+.header_text p i {
+    color: #FF8040;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.sign_top {
+	width: 29%;
+	float: left;
+	text-align: right;
+}
+
+.logo a img {
+    padding-top: 0;
+}
+
+.sign_top ul {
+	margin-bottom: 0;
+	line-height: 53px;
+}
+
+.sign_top ul li {
+    display: inline-block;
+}
+
+
+.sign_top li a {
+    font-size: 15px;
+	color: #40BFFF;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.bord_line1 {
+    position: relative;
+}
+.bord_line1::after {
+	position: absolute;
+	content: '';
+	top: 2px;
+	left: -12px;
+	width: 2px;
+	height: 15px;
+	background: #d4d4d4;
+}
+.sign_top li a:hover {
+    
+}
+.sign_top .dropdown-menu a {
+        margin-left: 0;
+}
+.sign_top .dropdown .btn {
+    font-size: 15px;
+	color: #40BFFF;
+    font-weight: 500;
+	border: 1px rgba(0, 0, 0, 0);
+	padding: 0;
+	line-height: 0;
+	border-radius: 0;
+    background: none;
+}
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0);
+}
+.sign_top .dropdown-item {
+	padding: 0 1.5rem;
+}
+.sign_top .dropdown-menu {
+	padding: 0 0;
+	margin: 0 0;
+}
+
+
+
+/*--=================================================================
+=====================  Dextop_Menu part start  ======================
+=================================================================--*/
+#dextop_menu {
+    padding-top: 40px;
+    
+    padding-bottom: 40px;
+}
+
+
+#dextop_menu .menu_list {
+    height: 170px;
+    background: #717D8A;
+    text-align: center;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+#dextop_menu .menu_list:hover {
+    background: #40BFFF;
+}
+#dextop_menu .menu_list.active {
+    background: #40BFFF;
+}
+#dextop_menu .menu_icon1 {
+	background: url(../images/menu_icons/cl4.png) no-repeat center 40px;
+    width: 100%;
+    height: 120px;
+}
+#dextop_menu .menu_icon2 {
+	background: url(../images/menu_icons/cl1.png) no-repeat center 40px;
+    width: 100%;
+    height: 120px;
+}
+#dextop_menu .menu_icon3 {
+	background: url(../images/menu_icons/cl5.png) no-repeat center 40px;
+    width: 100%;
+    height: 120px;
+}
+#dextop_menu .menu_icon4 {
+	background: url(../images/menu_icons/cl3.png) no-repeat center 40px;
+    width: 100%;
+    height: 120px;
+}
+#dextop_menu .menu_icon5 {
+	background: url(../images/menu_icons/cl2.png) no-repeat center 40px;
+    width: 100%;
+    height: 120px;
+}
+#dextop_menu .menu_icon6 {
+	background: url(../images/menu_icons/cl6.png) no-repeat center 40px;
+    width: 100%;
+    height: 120px;
+}
+#dextop_menu .menu_list a span {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+/*--================================================================
+===================  exchange_table part start  ====================
+================================================================--*/
+#home_exchange_table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bg_field {
+    background: #D0DFEF;
+    padding: 15px;
+    border-radius: 5px;
+}
+.bg_b_field {
+    background: #293241;
+    padding: 25px;
+    border-radius: 5px;
+}
+#home_exchange_table .btn_icon_sm ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#home_exchange_table .btn_icon_sm ul li a {
+    color: #858c97;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    background: #fff;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+#home_exchange_table .home_cu_title h3 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 15px 0;
+	padding-left: 20px;
+}
+.currency_item_list {
+    margin: 0;
+    transition: all linear .3s;
+    margin-bottom: 5px;
+}
+.currency_item_list:hover {
+    background: #FF8040;
+    margin: 0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.currency_item_list .pale-0 {
+    padding-left: 0;
+}
+.currency_item_list .currency_name {
+    padding-top: 12px;
+}
+.currency_item_list .currency_name span {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+}
+.currency_item_list:hover .currency_name span {
+    color: #fff;
+}
+
+
+
+/*right side part*/
+
+.flot_l3 {
+    width: 50%;
+    float: left;
+}
+.flot_l2 {
+    width: 24%;
+    float: left;
+}
+.home_right_currency {
+    margin-bottom: 5px;
+    transition: all linear .3s;
+}
+.home_right_currency:hover {
+    background: #FF8040;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.currency_item_list2 {
+    margin: 0;
+    transition: all linear .3s;
+}
+
+.currency_item_list2 .pale-0 {
+    padding-left: 0;
+}
+.currency_item_list2 .currency_name {
+    padding-top: 12px;
+}
+.currency_item_list2 .currency_name span {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+}
+.home_right_currency:hover .currency_name span {
+    color: #fff;
+}
+
+
+.home_right_currency .curr_rate_list {
+    padding-top: 12px;
+}
+.home_right_currency .curr_rate_list span {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+}
+.home_right_currency:hover .curr_rate_list span {
+    color: #fff;
+}
+
+
+.home_right_currency .curr_reserv_list {
+    padding-top: 12px;
+    position: relative;
+}
+.home_right_currency .curr_reserv_list::after {
+    display: none; 
+	cursor: pointer;
+	content: '';
+	position: absolute;
+	float: none;
+	top: 70%;
+    transform: translateX(-70%);
+	right: 10px;
+	width: 22px;
+	height: 22px;
+	background: url(../images/logo/rez.png) no-repeat center center;
+	margin: -11px 0 0 0;
+}
+.home_right_currency:hover .curr_reserv_list span {
+    color: #fff;
+}
+
+.home_right_currency .curr_reserv_list span {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+}
+.home_right_currency:hover .curr_reserv_list::after {
+    display: block;
+}
+
+
+
+
+
+
+/*Home Login Part*/
+
+.widget_log_line_text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login_widget_subm_left {
+    float: left;
+}
+.login_widget_subm_right {
+    float: right;
+}
+button, input, optgroup, select, textarea {
+	width: 100%;
+    padding: 7px;
+    font-size: 13px;
+    color: #858c97;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+.login_widget_subm_left a {
+    font-size: 13px;
+}
+.login_widget_subm_right a {
+    font-size: 13px;
+}
+#login_short .form h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#login_short button {
+    background-color: #FF8040;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+#re_currency_exchange {
+    border: 1px solid rgba(188, 188, 188, 0.58);
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#re_currency_exchange h4 {
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+#re_currency_exchange .first_curr_logo {
+    float: left;
+    width: 33%;
+    padding: 10px 10px;
+}
+#re_currency_exchange .sec_curr_logo {
+    float: left;
+    width: 33%;
+    padding: 10px 10px;
+}
+#re_currency_exchange .exchange_into {
+    float: left;
+    width: 33%;
+    padding: 20px 20px;
+}
+
+#re_currency_exchange .first_curr_logo img {
+    margin-bottom: 10px;
+}
+#re_currency_exchange .sec_curr_logo img {
+    margin-bottom: 10px;
+}
+.curr_change_name span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+#check_order .form h4 {
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#check_order button {
+    background-color: #FF8040;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    width: 80%;
+}
+
+
+
+#currency_reserv {
+    border: 1px solid rgba(188, 188, 188, 0.58);
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#currency_reserv  h4 {
+	font-size: 19px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.exchange_type_btn {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.58);
+    margin-bottom: 8px;
+}
+#currency_reserv .exchange_type_btn a {
+	background: #98c1d9;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 4px 8px;
+	border-radius: 3px;
+	margin-right: 2px;
+}
+#currency_reserv .currency_item_list .currency_name {
+	padding-top: 2px;
+}
+#currency_reserv .currency_item_list .currency_name span {
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+}
+#currency_reserv .currency_item_list .currency_name p {
+	padding-top: 0;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+}
+#currency_reserv .currency_item_list:hover {
+	background: none;
+}
+
+
+
+
+
+
+/*--================================================================
+========================  website_descrip part start  ==============
+================================================================--*/
+#website_descrip {
+    padding-bottom: 40px;
+}
+.welcome_item h4 {
+	font-size: 19px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.welcome_item p {
+	font-size: 13px;
+}
+.welcome_item p span {
+	font-size: 13px;
+    font-weight: 600;
+}
+.welcome_item p a {
+    color: #4f7db2;
+	font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/*--================================================================
+====================  Footer_partner_wrap part start  ==============
+================================================================--*/
+
+#footer_partner_wrap {
+    padding-top: 30px;
+    background: #D0DFEF;
+}
+#footer_partner_wrap .partner_img_item ul li {
+    display: inline-block;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+#footer_partner_wrap .partner_img_item ul li a span {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #514d4d;
+}
+
+
+
+
+
+
+
+
+/*--================================================================
+========================  Footer part start  =======================
+================================================================--*/
+
+
+#footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #333e4f;
+}
+#footer .footer_left p {
+    font-size: 14px;
+    color: #d2d2d2;
+    font-weight: 14px;
+}
+#footer .footer_right p {
+    font-size: 14px;
+    color: #d2d2d2;
+    font-weight: 14px;
+}
+#footer .footer_left a {
+    font-size: 14px;
+    color: #98c1d9;
+    font-weight: 14px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+/*--================================================================
+====================================================================
+========================  Rate Page start  =========================
+====================================================================
+================================================================--*/
+
+#pate_table .bg_field {
+    padding: 25px;
+}
+.page_head h3 {
+    font-size: 24px;
+    font-weight: 700;
+	color: #293241;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+.page_head h4 {
+    font-size: 18px;
+    font-weight: 600;
+	color: #293241;
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+}
+
+
+#rate_table .table_tittel {
+    background: #3babe3;
+    padding: 10px;
+    border-radius: 5px;
+}
+#rate_table .item_tittle h6 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+#rate_table .curr_rate_inwhite_list {
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 5px;
+    margin-top: 2px;
+}
+#rate_table .pale-0 {
+    padding-left: 0;
+}
+#rate_table .currency_name  {
+    font-size: 13px;
+    padding-top: 10px;
+    color: #000;
+    font-weight: 700;
+}
+#rate_table .currency_price  {
+    font-size: 13px;
+    padding-top: 10px;
+    color: #000;
+    font-weight: 400;
+}
+#rate_table .tarif_curs_reserv {
+    background: #3babe3;
+    padding: 5px;
+    width: 100%;
+    display: none;
+}
+#rate_table .tarif_curs_reserv a {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+#rate_table .rate_listing_item {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*--================================================================
+====================================================================
+========================  Rate Page start  =========================
+====================================================================
+================================================================--*/
+
+
+.discount_item {
+    padding-bottom: 30px;
+}
+
+.discont_div_ins table th {
+	font-size: 14px;
+    font-weight: 600;
+	color: #fff;
+	background: #98c1d9;
+	border: none;
+	padding: 15px 15px;
+}
+.discont_div_ins table td {
+	font-size: 13px;
+	background: none;
+	border-bottom: 1px solid #97c7e3;
+	padding: 15px 15px;
+}
+
+.discount_item p {
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+/*--================================================================
+====================================================================
+========================  News Page start  =========================
+====================================================================
+================================================================--*/
+
+
+.news_item {
+    padding-bottom: 20px;
+}
+.news_item h3 a {
+	color: #293241;
+    font-size: 18px;
+    font-weight: 600;
+	text-transform: uppercase;
+}
+.news_item h3 {
+    padding-bottom: 15px;
+}
+.news_item span {
+	color: #293241;
+    font-size: 14px;
+    font-weight: 600;
+}
+.news_item p {
+	color: #293241;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.news_item .news_category p {
+    font-size: 13px;
+}
+.news_item .news_category a {
+    color: #4f7db2;
+}
+
+.read_more_btn2 a {
+	float: right;
+	padding: 8px 20px;
+	border-radius: 4px;
+	color: #fff;
+	font: 12px 'Open Sans', sans-serif;
+	background: #2a5c96;
+	text-decoration: none;
+	margin: -8px 0 0 0;
+}
+
+
+
+
+
+
+
+
+/*--================================================================
+====================================================================
+========================  Review Page start  =======================
+====================================================================
+================================================================--*/
+
+
+.review_list {
+    background: #D0DFEF;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.review_list h6 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.review_list p {
+    font-size: 13px;
+}
+.pagenavi span, .pagenavi a {
+	margin: 0 3px;
+	position: relative;
+	padding: 8px 13px;
+	border-radius: 4px;
+}
+.pagenavi span {
+	background: #98c1d9;
+	color: #fff;
+}
+.pagenavi a, .nav-previous a, .nav-next a {
+	text-decoration: none;
+	color: #293241;
+	background: #fff;
+}
+
+
+.post_review .review_list {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#review_from label {
+    font-size: 13px;
+    font-weight: 600;
+}
+#review_from label span {
+    color: #ff0000;
+}
+
+.post_rev_titell {
+    width: 100%;
+    background: #000;
+    padding: 20px;
+    margin-top: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.post_rev_titell h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+#review_from .review_btn {
+    padding-top: 30px;
+}
+#review_from .review_btn a {
+	background-color: #FF8040;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#review_from .review_btn a:hover {
+	background-color: #e68f63;
+}
+
+
+
+
+
+
+
+/*--================================================================
+====================================================================
+========================  Contact Page start  ======================
+====================================================================
+================================================================--*/
+
+#contact_page .post_rev_titell {
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+/*--================================================================
+====================================================================
+========================  Account Page start  ======================
+====================================================================
+================================================================--*/
+
+
+#account_page button, #account_page input, #account_page optgroup, #account_page select, #account_page textarea {
+	width: 100%;
+	padding: 7px;
+	font-size: 13px;
+	color: #000;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 0;
+}
+
+
+#account_page .post_rev_titell {
+	margin-top: 0px;
+}
+
+#account_page .verification_widget {
+	border-bottom: 1px solid #ebebeb;
+	color: #ff6066;
+	padding: 20px 0px 16px 40px;
+	margin: -20px 0px 10px 0px;
+	background: url(../images/logo/verify0.png) no-repeat 0px 16px;
+    font-size: 14px;
+}
+#account_page .user_vrfi_link a {
+	color: #5091db;
+    font-size: 14px;
+}
+#account_page .uswidin {
+    padding-bottom: 10px;
+}
+#account_page .uswidinleft {
+    color: #fff;
+    float: left;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#account_page .uswidinright {
+    color: #fff;
+    float: right;
+    font-weight: 700;
+    font-size: 14px;
+}
+#account_page .user_widget_body ul li a {
+    color: #5091db;
+    font-size: 14px;
+}
+#account_page .user_widget_body ul li a.current {
+    color: #fff;
+}
+
+
+
+
+
+
+
+/*--================================================================
+====================================================================
+======================  MObile Menu Page start  ====================
+====================================================================
+================================================================--*/
+#mobile_menu {
+    display: none;
+	background: #c8d8ed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mob_bar {
+    font-size:30px;
+    cursor:pointer;
+    padding: 0 13px;
+}
+
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidenav .slide_menu_main {
+    padding: 20px;
+}
+.sidenav .slide_menu_main ul li {
+    display: block;
+}
+.sidenav .slide_menu_main ul li a {
+  padding: 5px 8px 5px 0;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .slide_menu_main ul li a.active {
+  color: #4f7db2;
+}
+
+
+.mob_top_bar {
+    background: #000;
+    padding: 15px;    
+}
+.sidenav .closebtn {
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+.user_sign_in {
+    padding-top: 5px;
+}
+.user_sign_in a {
+    float: left;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #ee6c4d;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+#mobile_menu .header_mobile_menu {
+    float: left;
+}
+#mobile_menu .header_logo {
+    float: left;
+    width: 40%;
+    padding-top: 4px;
+}
+#mobile_menu .mob_lang {
+    float: right;
+    width: 10%;
+    padding-top: 6px;
+}
+#mobile_menu .mob_contact {
+    float: right;
+    width: 15%;
+    padding-top: 6px;
+}
+#mobile_menu .mob_contact span {
+    cursor: pointer;
+}
+#mobile_menu .mob_lang span {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidenav2 {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav2 .slide_menu_main {
+    padding: 20px;
+}
+.sidenav2 .slide_menu_main ul li a {
+  padding: 5px;
+  font-size: 18px;
+  color: #000;
+  display: block;
+  transition: 0.2s;
+}
+.sidenav2 .slide_menu_main ul li a {
+  padding: 5px;
+  font-size: 18px;
+  color: #000;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidenav2 .slide_menu_main ul li a .language_img {
+    padding-right: 10px;
+}
+.sidenav2 .user_sign_in h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.sidenav2 .closebtn2 {
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav2 {padding-top: 15px;}
+  .sidenav2 a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidenav3 {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidena32 .slide_menu_main {
+    padding: 20px;
+}
+.sidenav3 .slide_menu_main ul li a {
+  padding: 5px;
+  font-size: 18px;
+  color: #000;
+  display: block;
+  transition: 0.2s;
+}
+.sidenav3 .slide_menu_main ul li a {
+  padding: 5px;
+  font-size: 18px;
+  color: #000;
+  display: block;
+  transition: 0.2s;
+}
+.sidenav3 .slide_menu_main {
+	padding: 20px;
+}
+.sidenav3 .slide_menu_main ul li a .language_img {
+    padding-right: 10px;
+}
+.sidenav3 .user_sign_in h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.sidenav3 .closebtn3 {
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav3 {padding-top: 15px;}
+  .sidenav3 a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
